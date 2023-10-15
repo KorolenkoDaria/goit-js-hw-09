@@ -23,18 +23,24 @@ img {
     font-size: 24px;
 }
 [data-start] {
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 10px;
   font-size: 24px;
   border: 1px solid #cac4c4;
   background-color: #dcf2dc;
 }
+[data-start]:hover{
+  border-color: #1d721d;
+}
 [data-stop] {
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 10px;
   font-size: 24px;
   border: 1px solid #cac4c4;
   background-color: #f6d9d9;
+}
+[data-stop]:hover{
+  border-color: #9d3131;
 }
 .timer{
     display: flex;
@@ -75,4 +81,7 @@ border-radius: 5px;
   border-radius: 5px;
   font-weight: 800;
   color: #7c7a7a;
+}
+.form button:hover{
+  border-color: #1d721d;
 }
